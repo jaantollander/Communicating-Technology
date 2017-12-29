@@ -1,0 +1,31 @@
+---
+author: Jaan Tollander de Balsch
+bibliography: A3.bib
+---
+
+# A3. Description of the solution
+- **Name**: Jaan Tollander de Balsch
+- **Group**: H02
+- **School**: SCI
+
+
+## Bus-Route Optimization
+Creating a good routing for buses is important for working public transportation system, since it determines how many buses are needed to meet the demand, and how much time it will take to get from one place to another leading, to better customer satisfaction. The total length of the route has direct impact on how much money will be spent on gasoline and maintenance, which also contribute to the impact on the environment. The *city of Gotham* could benefit for our consultation in order to create the best solution for implementing a bus network for the city.
+
+<!--
+* Analysis of parts
+    - Formulation of the problem
+    - Fitness function
+    - Constraints
+* Operating Principles
+    - Numerical values from real life data
+    - Solver is run on super computer
+* Analogy/comparison
+    - Combinatorial optimization
+    - Integer programming
+-->
+
+The formulation of the problem consists of an *objective* function and *constraints*. The objective function is usually formulated as *transportation cost* function, which can include the monetary cost to operate the system and the time to serve the customers. Constraints are applied to the problem in order to avoid unwanted solutions, and can be formulated as positive transportation cost. Numerical values for the parameters are estimated through data analysis. Data, such as population distribution and common travel routes, can be used to estimate the demand and best locations for the bus stops. Commercial optimization software can be used to solve the problem after it is formulated and the numerical values for the parameters have been obtained. The problem is computationally hard, therefore heuristic algorithm is used to obtain approximation of the real optimum. [@RouteOpt71:online], [@Vehicler42:online]
+
+
+## References

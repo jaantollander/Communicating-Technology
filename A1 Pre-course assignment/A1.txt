@@ -1,0 +1,38 @@
+---
+bibliography: A1.bib
+---
+
+
+# ASSIGNMENT 1 - Problems and solutions from your field of study
+
+- **Name**: Jaan Tollander de Balsch
+- **Group**: H02
+- **School**: SCI
+- **Major subject**: Applied Mathematics
+- **Minor subject**: Computer Science
+
+
+*Problem - Client - Proposed Solution*
+
+
+## 1. Gambling - Electronic Gaming Machines
+Design and testing of electronic gaming machines (aka slot machines) that can be found in casinos and supermarkets (at least in Finland) involves mathematics in areas such as *game theory* and *probability theory*, in order to make the machines enjoyable for the players and verify that they are profitable for the owners.
+
+**Clients** for expertize in these fields are casinos and RAY in Finland for example.
+
+**Applied mathematics** offers tools to calculate the *payout percentage* which corresponds to how fast the player is expected to lose money, and *standard deviation* which corresponds to *luck factor* of the game. Luck factor means that the player might win in short term due to large payout if the standard deviation is large, but they of course will be losing money in the long term. This knowledge can then be used to guide the development of the software for the game.
+
+[@Gambling57:online], [@Slotmach3:online]
+
+
+
+## 2. Optimization - Bus Route Optimization
+When creating routes for buses we want to create the routes in *"optimal way"*. This means that we have some objectives such as *minimizing the number of buses that we need* as well as *minimizing the distance that the buses have to travel* in order to meet the demand. Constraints such as, that none of the bus routes shouldn't be overly long compared to the others, can also be applied to the problem.
+
+The **client** in this case might be the *state* or a *private company* that wants to provide the service, for example school buses.
+
+This problem can be formulated as an *mathematical optimization problem* and **solved** using various optimization methods, which are tools that can produce results that are better in the qualities that we are optimizing for. In order to optimize a system we need to be able to *measure its performance* and to *compare it to previous measurements*. Additionally we also can have constraints if we want to exclude solutions that we consider bad. An example of such methods is *genetic optimization* which is optimization technique that borrows its working principles from the process of evolution in order to produce better performing results.
+
+[@Creating18:online], [@Mathemat13:online], [@Geneticp61:online]
+
+# References

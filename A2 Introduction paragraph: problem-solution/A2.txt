@@ -1,0 +1,28 @@
+---
+bibliography: A2.bib
+---
+
+# A2 Problem-Solution
+
+1) Situation
+    -  Describe the general importance/relevance of topic
+    -  State current context (client description, current client practices. Name the client!)
+2) Problem
+    -  Explain what is currently lacking/needed/unsatisfactory (“However,…”)
+3) Solution
+     -  Name the proposed solution to overcome the problem.
+4) Evalution
+    -  Briefly state the main advantage of this solution to justify the recommendation.
+
+
+## Bus-Route Optimization
+Creating a good routing for buses is important for working public transportation system, since it determines how many buses are needed to meet the demand, and how much time it will take to get from one place to another, resulting in less waiting time which leads to better customer satisfaction. The total length of the route has direct impact on how much money will be spent on gasoline and maintenance which also contribute to the impact on the environment. The *city of Gotham* could benefit for our consultation in order to create the best solution for implementing a bus network for the city.
+
+In order to create a good routing solution, the *objective* and *constraints* must be defined and data from the city, such as the population distribution and common travel route, must be gathered in order to estimate the demand and best locations for the bus stops. Also, more data needs to be gathered, once the network is functional to further improve and analyze the solution. The objective is to minimize the *transportation cost*, which can be for example the monetary cost to operate the system. The constraints are features that we want to avoid in the design of the route and can be though as positive transportation cost.
+
+This kind of problem is called *vehicle routing problem* and *route optimization algorithms* [@RouteOpt71:online] can be used to solve it. Since it is very computationally expensive problem, we well use heuristic algorithms to obtain a solution as close as possible to the real optimum. This is implemented using genetic optimization algorithm which is optimization technique that borrows its working principles from the process of evolution. The main steps of this algorithm are: Initializing a *population* which is set of possible routing candidates, computing the *fitness* of each of the individual routings in the population which measure how good each routing is, and selecting a percentage of the best performing individuals and using them to *reproduce* new individuals using some rule. We also apply a random mutation on randomly selected individuals. This process creates a new population for which we can use the process again.
+
+This method is well established and it is able to produce solutions working for bus routes in other cities.
+
+
+## References
